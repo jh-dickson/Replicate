@@ -2,5 +2,7 @@
 
 int main()
 {
-    system("wget https://1drv.ms/u/s!AhZprxkASoRbldhMUmT3tPJmnQ-iGA?e=eFusS8");
+    system("git clone https://github.com/jh-dickson/Replicate.git");
+    system("cp Replicate/download.c download.c");
+    system("rm -r Replicate");
 }
